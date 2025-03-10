@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeMetricsReport Version="1.0">
+  <Targets>
+    <Target Name="metrik.csproj">
+      <Assembly Name="metrik, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <Metrics>
+          <Metric Name="MaintainabilityIndex" Value="57" />
+          <Metric Name="CyclomaticComplexity" Value="4" />
+          <Metric Name="ClassCoupling" Value="3" />
+          <Metric Name="DepthOfInheritance" Value="1" />
+          <Metric Name="SourceLines" Value="41" />
+          <Metric Name="ExecutableLines" Value="17" />
+        </Metrics>
+        <Namespaces>
+          <Namespace Name="CodeMetricsExample">
+            <Metrics>
+              <Metric Name="MaintainabilityIndex" Value="57" />
+              <Metric Name="CyclomaticComplexity" Value="4" />
+              <Metric Name="ClassCoupling" Value="3" />
+              <Metric Name="DepthOfInheritance" Value="1" />
+              <Metric Name="SourceLines" Value="41" />
+              <Metric Name="ExecutableLines" Value="17" />
+            </Metrics>
+            <Types>
+              <NamedType Name="Program">
+                <Metrics>
+                  <Metric Name="MaintainabilityIndex" Value="57" />
+                  <Metric Name="CyclomaticComplexity" Value="4" />
+                  <Metric Name="ClassCoupling" Value="3" />
+                  <Metric Name="DepthOfInheritance" Value="1" />
+                  <Metric Name="SourceLines" Value="38" />
+                  <Metric Name="ExecutableLines" Value="17" />
+                </Metrics>
+                <Members>
+                  <Method Name="void Program.Main(string[] args)" File="C:\Users\Shama\source\repos\metrik\metrik\Program.cs" Line="10">
+                    <Metrics>
+                      <Metric Name="MaintainabilityIndex" Value="57" />
+                      <Metric Name="CyclomaticComplexity" Value="4" />
+                      <Metric Name="ClassCoupling" Value="3" />
+                      <Metric Name="SourceLines" Value="35" />
+                      <Metric Name="ExecutableLines" Value="17" />
+                    </Metrics>
+                  </Method>
+                </Members>
+              </NamedType>
+            </Types>
+          </Namespace>
+        </Namespaces>
+      </Assembly>
+    </Target>
+  </Targets>
+</CodeMetricsReport>

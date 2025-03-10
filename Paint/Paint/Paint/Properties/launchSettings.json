@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Paint": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\Users\\Markk\\source\\repos\\Paint\\Paint\\bin\\Debug\\net6.0-windows"
+    }
+  }
+}
